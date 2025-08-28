@@ -1,0 +1,17 @@
+{
+    "name": "fake-api-server",
+    "version": "1.0.0",
+    "description": "Simple fake API server for testing",
+    "main": "fake-api.js",
+    "scripts": {
+        "start": "node fake-api.js",
+        "dev": "nodemon fake-api.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
